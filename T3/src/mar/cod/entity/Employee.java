@@ -61,4 +61,7 @@ public class Employee implements Serializable {
 		this.depCode = depCode;
 	}
 
+	public String toString(){
+		return empId+" "+fname+" "+lname+" "+depCode;
+	}
 }
